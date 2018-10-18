@@ -5,6 +5,8 @@
 # Repo:   https://github.com/bonfy/leetcode
 # Usage:  Leetcode solution downloader and auto generate readme
 #
+# Modified by Johnnysun
+#
 import requests
 import configparser
 import os
@@ -54,7 +56,7 @@ def get_config_from_file():
 
     language = cp.get('leetcode', 'language')
     if not language:
-        language = 'python'  # language default python
+        language = 'cpp'  # language default python
     repo = cp.get('leetcode', 'repo')
     if not repo:
         raise Exception('Please input your Github repo address')
@@ -86,7 +88,7 @@ def rep_unicode_in_code(code):
 
 def check_and_make_dir(dirname):
     if not os.path.exists(dirname):
-        os.mkdir(dirname)
+        os.makedirs(dirname)
 
 
 ProgLang = namedtuple('ProgLang', ['language', 'ext', 'annotation'])
@@ -116,7 +118,7 @@ class QuizItem:
         self.solutions = []
 
     def __str__(self):
-        return '<Quiz: {question_id}-{question__title_slug}({difficulty})-{is_pass}>'.format(
+        return '<Quiz: {question_id}_{question__title_slug}({difficulty})_{is_pass}>'.format(
             question_id=self.question_id,
             question__title_slug=self.question__title_slug,
             difficulty=self.difficulty,
@@ -312,12 +314,19 @@ class Leetcode:
         # set limit a big num
         limit = 20
         offset = 0
+        count = 0
         while True:
             submissions_url = '{}/api/submissions/?format=json&limit={}&offset={}'.format(
                 self.base_url, limit, offset
             )
+            print(submissions_url)
             resp = self.session.get(submissions_url, proxies=PROXIES)
-            assert resp.status_code == 200
+            while resp.status_code != 200:
+                print(submissions_url)
+                resp = self.session.get(submissions_url, proxies=PROXIES)
+                count=count+1
+                if count == 10:
+                    break
             data = resp.json()
             if 'has_next' not in data.keys():
                 raise Exception('Get submissions wrong, Check network\n')
@@ -439,7 +448,7 @@ class Leetcode:
         quiz: type QuizItem
         """
         qid = quiz.question_id
-        qtitle = quiz.question__title_slug
+        qtitle = quiz.question__title.replace(' ','_')
         slts = list(
             filter(lambda i: i['lang'] in self.languages, quiz.solutions)
         )
@@ -451,13 +460,13 @@ class Leetcode:
             )
             return
 
-        dirname = '{id}-{title}'.format(id=str(qid).zfill(3), title=qtitle)
+        dirname = 'solutions/{id}_{title}'.format(id=str(qid).zfill(3), title=qtitle)
         print('begin download ' + dirname)
         check_and_make_dir(dirname)
         path = os.path.join(HOME, dirname)
         for slt in slts:
-            fname = '{title}.{ext}'.format(
-                title=qtitle, ext=self.prolangdict[slt['lang']].ext
+            fname = '{id}_{title}.{ext}'.format(
+                id=str(qid).zfill(3), title=qtitle, ext=self.prolangdict[slt['lang']].ext
             )
             filename = os.path.join(path, fname)
             content = self._get_code_with_anno(slt)
@@ -502,23 +511,16 @@ class Leetcode:
     def write_readme(self):
         """Write Readme to current folder"""
         languages_readme = ','.join([x.capitalize() for x in self.languages])
-        md = '''# :pencil2: Leetcode Solutions with {language}
+        md = '''# Leetcode Solutions
 Update time:  {tm}
 
-Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
+Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-I have solved **{num_solved}   /   {num_total}** problems
-while there are **{num_lock}** problems still locked.
+**{num_solved}   /   {num_total}** problems solved!
 
-If you want to use this tool please follow this [Usage Guide](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
+**{num_lock}** problems locked.
 
-If you have any question, please give me an [issue]({repo}/issues).
-
-If you are loving solving problems in leetcode, please contact me to enjoy it together!
-
-(Notes: :lock: means you need to buy a book from Leetcode to unlock the problem)
-
-| # | Title | Source Code | Article | Difficulty |
+| # | Title | Source Code | Note | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|'''.format(
             language=languages_readme,
             tm=time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
@@ -529,46 +531,53 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
         )
         md += '\n'
         for item in self.items:
-            article = ''
-            if item.question__article__slug:
-                article = '[:memo:](https://leetcode.com/articles/{article}/)'.format(
-                    article=item.question__article__slug
+            if item.solutions:
+                note = ''
+                readmedir = 'solutions/{id}_{title}/readme.md'.format(
+                    id=str(item.question_id).zfill(3), title=item.question__title.replace(' ','_')
                 )
-            if item.is_lock:
-                language = ':lock:'
-            else:
-                if item.solutions:
-                    dirname = '{id}-{title}'.format(
-                        id=str(item.question_id).zfill(3),
-                        title=item.question__title_slug,
-                    )
-                    language = ''
-                    language_lst = [
-                        i['lang']
-                        for i in item.solutions
-                        if i['lang'] in self.languages
-                    ]
-                    while language_lst:
-                        lan = language_lst.pop()
-                        language += '[{language}]({repo}/blob/master/{dirname}/{title}.{ext})'.format(
-                            language=lan.capitalize(),
-                            repo=CONFIG['repo'],
-                            dirname=dirname,
-                            title=item.question__title_slug,
-                            ext=self.prolangdict[lan].ext,
-                        )
-                        language += ' '
+                #if item.question__article__slug:
+                #    article = '[:memo:](https://leetcode.com/articles/{article}/)'.format(
+                #        article=item.question__article__slug
+                #    )
+                if os.path.isfile(readmedir):
+                    note = '[Note]({readmedir})'.format(readmedir = readmedir)
+                if item.is_lock:
+                    language = ':lock:'
                 else:
-                    language = ''
-            language = language.strip()
-            md += '|{id}|[{title}]({url})|{language}|{article}|{difficulty}|\n'.format(
-                id=item.question_id,
-                title=item.question__title_slug,
-                url=item.url,
-                language=language,
-                article=article,
-                difficulty=item.difficulty,
-            )
+                    if item.solutions:
+                        dirname = '{id}_{title}'.format(
+                            id=str(item.question_id).zfill(3),
+                            title=item.question__title.replace(' ','_'),
+                        )
+                        language = ''
+                        language_lst = [
+                            i['lang']
+                            for i in item.solutions
+                            if i['lang'] in self.languages
+                        ]
+                        while language_lst:
+                            lan = language_lst.pop()
+                            language += '[{language}](solutions/{dirname}/{id}_{title}.{ext})'.format(
+                                language=lan.capitalize(),
+                                repo=CONFIG['repo'],
+                                dirname=dirname,
+                                id=str(item.question_id).zfill(3),
+                                title=item.question__title.replace(' ','_'),
+                                ext=self.prolangdict[lan].ext,
+                            )
+                            language += ' '
+                    else:
+                        language = ''
+                language = language.strip()
+                md += '|{id}|[{title}]({url})|{language}|{note}|{difficulty}|\n'.format(
+                    id=item.question_id,
+                    title=item.question__title,
+                    url=item.url,
+                    language=language,
+                    note=note,
+                    difficulty=item.difficulty,
+                )
         with open('README.md', 'w') as f:
             f.write(md)
 
@@ -601,12 +610,12 @@ def do_job(leetcode):
     print('Leetcode finish dowload')
     leetcode.write_readme()
     print('Leetcode finish write readme')
-    leetcode.push_to_github()
-    print('push to github')
+    #leetcode.push_to_github()
+    #print('push to github')
 
 
 if __name__ == '__main__':
     leetcode = Leetcode()
-    while True:
-        do_job(leetcode)
-        time.sleep(24 * 60 * 60)
+    #while True:
+    do_job(leetcode)
+    #time.sleep(24 * 60 * 60)
