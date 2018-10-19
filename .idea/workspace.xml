@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="006a79d4-79c3-4d79-86f1-9bdd6e4b05d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +21,8 @@
       <file leaf-file-name="leetcode_generate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5037">
+            <state relative-caret-position="-5209">
               <caret line="323" column="42" selection-start-line="323" selection-start-column="42" selection-end-line="323" selection-end-column="42" />
-              <folding>
-                <element signature="e#227#242#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,21 +145,28 @@
       <option name="project" value="LOCAL" />
       <updated>1539861736963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1539862039133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539862039133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.328877" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32797858" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32931727" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -179,6 +185,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -189,49 +221,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11381">
-          <caret line="610" selection-start-line="610" selection-end-line="610" />
-          <folding>
-            <element signature="e#227#242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6137">
+          <caret line="323" column="42" selection-start-line="323" selection-start-column="42" selection-end-line="323" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/048-rotate-image/rotate-image.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/050-powx-n/powx-n.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/088-merge-sorted-array/merge-sorted-array.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100-same-tree/same-tree.java">
+    <entry file="file://$PROJECT_DIR$/solutions/605_Can_Place_Flowers/605_Can_Place_Flowers.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11590">
-          <caret line="610" selection-start-line="610" selection-end-line="610" />
-          <folding>
-            <element signature="e#227#242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6137">
+          <caret line="323" column="42" selection-start-line="323" selection-start-column="42" selection-end-line="323" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.java">
+    <entry file="file://$PROJECT_DIR$/solutions/605_Can_Place_Flowers/605_Can_Place_Flowers.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6137">
+          <caret line="323" column="42" selection-start-line="323" selection-start-column="42" selection-end-line="323" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11381">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/048-rotate-image/rotate-image.java" />
+    <entry file="file://$PROJECT_DIR$/050-powx-n/powx-n.java" />
+    <entry file="file://$PROJECT_DIR$/088-merge-sorted-array/merge-sorted-array.java" />
+    <entry file="file://$PROJECT_DIR$/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.java" />
     <entry file="file://$PROJECT_DIR$/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -239,26 +264,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/048-rotate-image/rotate-image.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/050-powx-n/powx-n.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/088-merge-sorted-array/merge-sorted-array.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/879-maximize-distance-to-closest-person/maximize-distance-to-closest-person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100-same-tree/same-tree.java">
+    <entry file="file://$PROJECT_DIR$/100-same-tree/same-tree.java" />
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650" />
+        <state relative-caret-position="11590">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.java" />
+    <entry file="file://$PROJECT_DIR$/config.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/380-insert-delete-getrandom-o1/insert-delete-getrandom-o1.java" />
+    <entry file="file://$PROJECT_DIR$/048-rotate-image/rotate-image.java" />
+    <entry file="file://$PROJECT_DIR$/050-powx-n/powx-n.java" />
+    <entry file="file://$PROJECT_DIR$/088-merge-sorted-array/merge-sorted-array.java" />
+    <entry file="file://$PROJECT_DIR$/879-maximize-distance-to-closest-person/maximize-distance-to-closest-person.java" />
+    <entry file="file://$PROJECT_DIR$/100-same-tree/same-tree.java" />
     <entry file="file://$PROJECT_DIR$/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -277,13 +304,13 @@
     <entry file="file://$PROJECT_DIR$/solutions/001_Two_Sum/001_Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/605_Can_Place_Flowers/605_Can_Place_Flowers.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5037">
+        <state relative-caret-position="-5209">
           <caret line="323" column="42" selection-start-line="323" selection-start-column="42" selection-end-line="323" selection-end-column="42" />
-          <folding>
-            <element signature="e#227#242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
