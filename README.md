@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-19 10:46:35
+Update time:  2018-10-21 19:01:38
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**176   /   871** problems solved!
+**184   /   875** problems solved!
 
 **139** problems locked.
 
@@ -46,6 +46,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Java](solutions/059_Spiral_Matrix_II/059_Spiral_Matrix_II.java)||Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[Java](solutions/062_Unique_Paths/062_Unique_Paths.java)||Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Java](solutions/063_Unique_Paths_II/063_Unique_Paths_II.java)||Medium|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Java](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.java)||Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one)|[Java](solutions/066_Plus_One/066_Plus_One.java)||Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary)|[Java](solutions/067_Add_Binary/067_Add_Binary.java)||Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[Java](solutions/069_Sqrt(x)/069_Sqrt(x).java)||Easy|
@@ -105,7 +106,10 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |204|[Count Primes](https://leetcode.com/problems/count-primes)|[Java](solutions/204_Count_Primes/204_Count_Primes.java)||Easy|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)|[Java](solutions/205_Isomorphic_Strings/205_Isomorphic_Strings.java)||Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|[Java](solutions/206_Reverse_Linked_List/206_Reverse_Linked_List.java)||Easy|
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Java](solutions/209_Minimum_Size_Subarray_Sum/209_Minimum_Size_Subarray_Sum.java)||Medium|
+|213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[Java](solutions/213_House_Robber_II/213_House_Robber_II.java)||Medium|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Java](solutions/215_Kth_Largest_Element_in_an_Array/215_Kth_Largest_Element_in_an_Array.java)||Medium|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii)|[Java](solutions/216_Combination_Sum_III/216_Combination_Sum_III.java)||Medium|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[Java](solutions/217_Contains_Duplicate/217_Contains_Duplicate.java)||Easy|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)|[Java](solutions/219_Contains_Duplicate_II/219_Contains_Duplicate_II.java)||Easy|
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii)|[Java](solutions/220_Contains_Duplicate_III/220_Contains_Duplicate_III.java)||Medium|
@@ -128,6 +132,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[Java](solutions/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.java)||Medium|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[Java](solutions/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.java)||Medium|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|[Java](solutions/303_Range_Sum_Query_-_Immutable/303_Range_Sum_Query_-_Immutable.java)||Easy|
+|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)|[Java](solutions/304_Range_Sum_Query_2D_-_Immutable/304_Range_Sum_Query_2D_-_Immutable.java)||Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change)|[Java](solutions/322_Coin_Change/322_Coin_Change.java)||Medium|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three)|[Java](solutions/326_Power_of_Three/326_Power_of_Three.java)||Easy|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|[Java](solutions/328_Odd_Even_Linked_List/328_Odd_Even_Linked_List.java)||Medium|
@@ -174,13 +179,16 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)|[Java](solutions/674_Longest_Continuous_Increasing_Subsequence/674_Longest_Continuous_Increasing_Subsequence.java)||Easy|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[Java](solutions/680_Valid_Palindrome_II/680_Valid_Palindrome_II.java)||Easy|
 |686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match)|[Java](solutions/686_Repeated_String_Match/686_Repeated_String_Match.java)||Easy|
+|690|[Employee Importance](https://leetcode.com/problems/employee-importance)|[Java](solutions/690_Employee_Importance/690_Employee_Importance.java)||Easy|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island)|[Java](solutions/695_Max_Area_of_Island/695_Max_Area_of_Island.java)||Medium|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill)|[Java](solutions/733_Flood_Fill/733_Flood_Fill.java)||Easy|
 |744|[Network Delay Time](https://leetcode.com/problems/network-delay-time)|[Java](solutions/744_Network_Delay_Time/744_Network_Delay_Time.java)||Easy|
+|774|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)|[Java](solutions/774_Maximum_Depth_of_N-ary_Tree/774_Maximum_Depth_of_N-ary_Tree.java)||Easy|
 |799|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes)|[Java](solutions/799_Minimum_Distance_Between_BST_Nodes/799_Minimum_Distance_Between_BST_Nodes.java)||Easy|
 |874|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|[Java](solutions/874_Backspace_String_Compare/874_Backspace_String_Compare.java)||Easy|
 |879|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person)|[Java](solutions/879_Maximize_Distance_to_Closest_Person/879_Maximize_Distance_to_Closest_Person.java)||Easy|
 |898|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix)|[Java](solutions/898_Transpose_Matrix/898_Transpose_Matrix.java)||Easy|
+|904|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|[Java](solutions/904_Leaf-Similar_Trees/904_Leaf-Similar_Trees.java)||Easy|
 |924|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap)|[Java](solutions/924_Fair_Candy_Swap/924_Fair_Candy_Swap.java)||Easy|
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array)|[Java](solutions/932_Monotonic_Array/932_Monotonic_Array.java)||Easy|
 |941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|[Java](solutions/941_Sort_Array_By_Parity/941_Sort_Array_By_Parity.java)||Easy|
