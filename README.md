@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-28 18:11:54
+Update time:  2018-10-30 18:22:53
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**207   /   879** problems solved!
+**213   /   879** problems solved!
 
 **139** problems locked.
 
@@ -64,8 +64,11 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|[Java](solutions/081_Search_in_Rotated_Sorted_Array_II/081_Search_in_Rotated_Sorted_Array_II.java)||Medium|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|[Java](solutions/082_Remove_Duplicates_from_Sorted_List_II/082_Remove_Duplicates_from_Sorted_List_II.java)||Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|[Java](solutions/083_Remove_Duplicates_from_Sorted_List/083_Remove_Duplicates_from_Sorted_List.java)||Easy|
+|84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[Java](solutions/084_Largest_Rectangle_in_Histogram/084_Largest_Rectangle_in_Histogram.java)||Hard|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[Java](solutions/088_Merge_Sorted_Array/088_Merge_Sorted_Array.java)||Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Java](solutions/094_Binary_Tree_Inorder_Traversal/094_Binary_Tree_Inorder_Traversal.java)||Medium|
+|95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)|[Java](solutions/095_Unique_Binary_Search_Trees_II/095_Unique_Binary_Search_Trees_II.java)||Medium|
+|96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)|[Java](solutions/096_Unique_Binary_Search_Trees/096_Unique_Binary_Search_Trees.java)||Medium|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[Java](solutions/098_Validate_Binary_Search_Tree/098_Validate_Binary_Search_Tree.java)||Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree)|[Java](solutions/100_Same_Tree/100_Same_Tree.java)||Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree)|[Java](solutions/101_Symmetric_Tree/101_Symmetric_Tree.java)||Easy|
@@ -142,6 +145,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares)|[Java](solutions/279_Perfect_Squares/279_Perfect_Squares.java)||Medium|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)|[Java](solutions/283_Move_Zeroes/283_Move_Zeroes.java)||Easy|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[Java](solutions/287_Find_the_Duplicate_Number/287_Find_the_Duplicate_Number.java)||Medium|
+|290|[Word Pattern](https://leetcode.com/problems/word-pattern)|[Java](solutions/290_Word_Pattern/290_Word_Pattern.java)||Easy|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[Java](solutions/300_Longest_Increasing_Subsequence/300_Longest_Increasing_Subsequence.java)||Medium|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|[Java](solutions/303_Range_Sum_Query_-_Immutable/303_Range_Sum_Query_-_Immutable.java)||Easy|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)|[Java](solutions/304_Range_Sum_Query_2D_-_Immutable/304_Range_Sum_Query_2D_-_Immutable.java)||Medium|
@@ -161,6 +165,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)|[Java](solutions/380_Insert_Delete_GetRandom_O(1)/380_Insert_Delete_GetRandom_O(1).java)||Medium|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note)|[Java](solutions/383_Ransom_Note/383_Ransom_Note.java)||Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)|[Java](solutions/387_First_Unique_Character_in_a_String/387_First_Unique_Character_in_a_String.java)||Easy|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference)|[Java](solutions/389_Find_the_Difference/389_Find_the_Difference.java)||Easy|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence)|[Java](solutions/392_Is_Subsequence/392_Is_Subsequence.java)||Medium|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)|[Java](solutions/404_Sum_of_Left_Leaves/404_Sum_of_Left_Leaves.java)||Easy|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|[Java](solutions/412_Fizz_Buzz/412_Fizz_Buzz.java)||Easy|
@@ -212,6 +217,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |898|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix)|[Java](solutions/898_Transpose_Matrix/898_Transpose_Matrix.java)||Easy|
 |904|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|[Java](solutions/904_Leaf-Similar_Trees/904_Leaf-Similar_Trees.java)||Easy|
 |908|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[Java](solutions/908_Middle_of_the_Linked_List/908_Middle_of_the_Linked_List.java)||Easy|
+|920|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences)|[Java](solutions/920_Uncommon_Words_from_Two_Sentences/920_Uncommon_Words_from_Two_Sentences.java)||Easy|
 |924|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap)|[Java](solutions/924_Fair_Candy_Swap/924_Fair_Candy_Swap.java)||Easy|
 |932|[Monotonic Array](https://leetcode.com/problems/monotonic-array)|[Java](solutions/932_Monotonic_Array/932_Monotonic_Array.java)||Easy|
 |941|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|[Java](solutions/941_Sort_Array_By_Parity/941_Sort_Array_By_Parity.java)||Easy|
