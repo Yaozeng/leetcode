@@ -613,7 +613,6 @@ def do_job(leetcode):
     #leetcode.push_to_github()
     #print('push to github')
 
-
 if __name__ == '__main__':
     leetcode = Leetcode()
     #while True:

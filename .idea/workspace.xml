@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="006a79d4-79c3-4d79-86f1-9bdd6e4b05d0" name="Default" comment="" />
+    <list default="true" id="006a79d4-79c3-4d79-86f1-9bdd6e4b05d0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/solutions/039_Combination_Sum/039_Combination_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/187_Repeated_DNA_Sequences/187_Repeated_DNA_Sequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/299_Bulls_and_Cows/299_Bulls_and_Cows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_generate.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +25,8 @@
       <file leaf-file-name="leetcode_generate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="615" selection-start-line="615" selection-end-line="615" />
+            <state relative-caret-position="395">
+              <caret line="614" selection-start-line="614" selection-end-line="614" />
             </state>
           </provider>
         </entry>
@@ -72,11 +80,6 @@
               <item name="leetcode2github" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode2github" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode2github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode2github" type="462c0819:PsiDirectoryNode" />
-              <item name="solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -85,7 +88,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bottomup-tf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -167,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540721554797</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init commit">
+      <created>1540895005460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540895005460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -188,12 +198,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32797858" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32797858" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3266399" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3239625" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15482573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15817694" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -204,6 +213,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +253,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11685">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11685">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11685">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11685">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5928">
@@ -384,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        <state relative-caret-position="395">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
         </state>
       </provider>
     </entry>
