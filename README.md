@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-11-03 10:20:51
+Update time:  2018-11-09 13:17:50
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**223   /   879** problems solved!
+**242   /   883** problems solved!
 
 **139** problems locked.
 
@@ -31,13 +31,16 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Java](solutions/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.java)||Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element)|[Java](solutions/027_Remove_Element/027_Remove_Element.java)||Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|[Java](solutions/028_Implement_strStr()/028_Implement_strStr().java)||Easy|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[Java](solutions/031_Next_Permutation/031_Next_Permutation.java)||Medium|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Java](solutions/033_Search_in_Rotated_Sorted_Array/033_Search_in_Rotated_Sorted_Array.java)||Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Java](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java)||Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Java](solutions/035_Search_Insert_Position/035_Search_Insert_Position.java)||Easy|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Java](solutions/036_Valid_Sudoku/036_Valid_Sudoku.java)||Medium|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say)|[Java](solutions/038_Count_and_Say/038_Count_and_Say.java)||Easy|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Java](solutions/039_Combination_Sum/039_Combination_Sum.java)||Medium|
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Java](solutions/040_Combination_Sum_II/040_Combination_Sum_II.java)||Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations)|[Java](solutions/046_Permutations/046_Permutations.java)||Medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii)|[Java](solutions/047_Permutations_II/047_Permutations_II.java)||Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Java](solutions/048_Rotate_Image/048_Rotate_Image.java)||Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Java](solutions/049_Group_Anagrams/049_Group_Anagrams.java)||Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[Java](solutions/050_Pow(x,_n)/050_Pow(x,_n).java)||Medium|
@@ -48,6 +51,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval)|[Java](solutions/057_Insert_Interval/057_Insert_Interval.java)||Hard|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word)|[Java](solutions/058_Length_of_Last_Word/058_Length_of_Last_Word.java)||Easy|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Java](solutions/059_Spiral_Matrix_II/059_Spiral_Matrix_II.java)||Medium|
+|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence)|[Java](solutions/060_Permutation_Sequence/060_Permutation_Sequence.java)||Medium|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list)|[Java](solutions/061_Rotate_List/061_Rotate_List.java)||Medium|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[Java](solutions/062_Unique_Paths/062_Unique_Paths.java)||Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Java](solutions/063_Unique_Paths_II/063_Unique_Paths_II.java)||Medium|
@@ -59,6 +63,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Java](solutions/073_Set_Matrix_Zeroes/073_Set_Matrix_Zeroes.java)||Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|[Java](solutions/074_Search_a_2D_Matrix/074_Search_a_2D_Matrix.java)||Medium|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors)|[Java](solutions/075_Sort_Colors/075_Sort_Colors.java)||Medium|
+|77|[Combinations](https://leetcode.com/problems/combinations)|[Java](solutions/077_Combinations/077_Combinations.java)||Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets)|[Java](solutions/078_Subsets/078_Subsets.java)||Medium|
 |79|[Word Search](https://leetcode.com/problems/word-search)|[Java](solutions/079_Word_Search/079_Word_Search.java)||Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[Java](solutions/080_Remove_Duplicates_from_Sorted_Array_II/080_Remove_Duplicates_from_Sorted_Array_II.java)||Medium|
@@ -66,7 +71,11 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|[Java](solutions/082_Remove_Duplicates_from_Sorted_List_II/082_Remove_Duplicates_from_Sorted_List_II.java)||Medium|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|[Java](solutions/083_Remove_Duplicates_from_Sorted_List/083_Remove_Duplicates_from_Sorted_List.java)||Easy|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[Java](solutions/084_Largest_Rectangle_in_Histogram/084_Largest_Rectangle_in_Histogram.java)||Hard|
+|86|[Partition List](https://leetcode.com/problems/partition-list)|[Java](solutions/086_Partition_List/086_Partition_List.java)||Medium|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[Java](solutions/088_Merge_Sorted_Array/088_Merge_Sorted_Array.java)||Easy|
+|90|[Subsets II](https://leetcode.com/problems/subsets-ii)|[Java](solutions/090_Subsets_II/090_Subsets_II.java)||Medium|
+|92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|[Java](solutions/092_Reverse_Linked_List_II/092_Reverse_Linked_List_II.java)||Medium|
+|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|[Java](solutions/093_Restore_IP_Addresses/093_Restore_IP_Addresses.java)||Medium|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Java](solutions/094_Binary_Tree_Inorder_Traversal/094_Binary_Tree_Inorder_Traversal.java)||Medium|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)|[Java](solutions/095_Unique_Binary_Search_Trees_II/095_Unique_Binary_Search_Trees_II.java)||Medium|
 |96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)|[Java](solutions/096_Unique_Binary_Search_Trees/096_Unique_Binary_Search_Trees.java)||Medium|
@@ -80,9 +89,11 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[Java](solutions/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java)||Medium|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[Java](solutions/107_Binary_Tree_Level_Order_Traversal_II/107_Binary_Tree_Level_Order_Traversal_II.java)||Easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|[Java](solutions/108_Convert_Sorted_Array_to_Binary_Search_Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.java)||Easy|
+|109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|[Java](solutions/109_Convert_Sorted_List_to_Binary_Search_Tree/109_Convert_Sorted_List_to_Binary_Search_Tree.java)||Medium|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|[Java](solutions/110_Balanced_Binary_Tree/110_Balanced_Binary_Tree.java)||Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[Java](solutions/111_Minimum_Depth_of_Binary_Tree/111_Minimum_Depth_of_Binary_Tree.java)||Easy|
 |112|[Path Sum](https://leetcode.com/problems/path-sum)|[Java](solutions/112_Path_Sum/112_Path_Sum.java)||Easy|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|[Java](solutions/113_Path_Sum_II/113_Path_Sum_II.java)||Medium|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|[Java](solutions/114_Flatten_Binary_Tree_to_Linked_List/114_Flatten_Binary_Tree_to_Linked_List.java)||Medium|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[Java](solutions/116_Populating_Next_Right_Pointers_in_Each_Node/116_Populating_Next_Right_Pointers_in_Each_Node.java)||Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|[Java](solutions/118_Pascal's_Triangle/118_Pascal's_Triangle.java)||Easy|
@@ -162,6 +173,8 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |326|[Power of Three](https://leetcode.com/problems/power-of-three)|[Java](solutions/326_Power_of_Three/326_Power_of_Three.java)||Easy|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|[Java](solutions/328_Odd_Even_Linked_List/328_Odd_Even_Linked_List.java)||Medium|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence)|[Java](solutions/334_Increasing_Triplet_Subsequence/334_Increasing_Triplet_Subsequence.java)||Medium|
+|337|[House Robber III](https://leetcode.com/problems/house-robber-iii)|[Java](solutions/337_House_Robber_III/337_House_Robber_III.java)||Medium|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits)|[Java](solutions/338_Counting_Bits/338_Counting_Bits.java)||Medium|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[Java](solutions/341_Flatten_Nested_List_Iterator/341_Flatten_Nested_List_Iterator.java)||Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|[Java](solutions/344_Reverse_String/344_Reverse_String.java)||Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)|[Java](solutions/345_Reverse_Vowels_of_a_String/345_Reverse_Vowels_of_a_String.java)||Easy|
@@ -175,10 +188,13 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)|[Java](solutions/387_First_Unique_Character_in_a_String/387_First_Unique_Character_in_a_String.java)||Easy|
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference)|[Java](solutions/389_Find_the_Difference/389_Find_the_Difference.java)||Easy|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence)|[Java](solutions/392_Is_Subsequence/392_Is_Subsequence.java)||Medium|
+|394|[Decode String](https://leetcode.com/problems/decode-string)|[Java](solutions/394_Decode_String/394_Decode_String.java)||Medium|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)|[Java](solutions/404_Sum_of_Left_Leaves/404_Sum_of_Left_Leaves.java)||Easy|
+|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)|[Java](solutions/406_Queue_Reconstruction_by_Height/406_Queue_Reconstruction_by_Height.java)||Medium|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](solutions/409_Longest_Palindrome/409_Longest_Palindrome.java)||Easy|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|[Java](solutions/412_Fizz_Buzz/412_Fizz_Buzz.java)||Easy|
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number)|[Java](solutions/414_Third_Maximum_Number/414_Third_Maximum_Number.java)||Easy|
+|416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)|[Java](solutions/416_Partition_Equal_Subset_Sum/416_Partition_Equal_Subset_Sum.java)||Medium|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)|[Java](solutions/434_Number_of_Segments_in_a_String/434_Number_of_Segments_in_a_String.java)||Easy|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Java](solutions/435_Non-overlapping_Intervals/435_Non-overlapping_Intervals.java)||Medium|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii)|[Java](solutions/437_Path_Sum_III/437_Path_Sum_III.java)||Easy|
@@ -188,6 +204,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern)|[Java](solutions/459_Repeated_Substring_Pattern/459_Repeated_Substring_Pattern.java)||Easy|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[Java](solutions/463_Island_Perimeter/463_Island_Perimeter.java)||Easy|
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)|[Java](solutions/485_Max_Consecutive_Ones/485_Max_Consecutive_Ones.java)||Easy|
+|494|[Target Sum](https://leetcode.com/problems/target-sum)|[Java](solutions/494_Target_Sum/494_Target_Sum.java)||Medium|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|[Java](solutions/501_Find_Mode_in_Binary_Search_Tree/501_Find_Mode_in_Binary_Search_Tree.java)||Easy|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital)|[Java](solutions/520_Detect_Capital/520_Detect_Capital.java)||Easy|
 |521|[Longest Uncommon Subsequence I ](https://leetcode.com/problems/longest-uncommon-subsequence-i)|[Java](solutions/521_Longest_Uncommon_Subsequence_I_/521_Longest_Uncommon_Subsequence_I_.java)||Easy|
@@ -197,11 +214,13 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii)|[Java](solutions/541_Reverse_String_II/541_Reverse_String_II.java)||Easy|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i)|[Java](solutions/551_Student_Attendance_Record_I/551_Student_Attendance_Record_I.java)||Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii)|[Java](solutions/557_Reverse_Words_in_a_String_III/557_Reverse_Words_in_a_String_III.java)||Easy|
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)|[Java](solutions/560_Subarray_Sum_Equals_K/560_Subarray_Sum_Equals_K.java)||Medium|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i)|[Java](solutions/561_Array_Partition_I/561_Array_Partition_I.java)||Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix)|[Java](solutions/566_Reshape_the_Matrix/566_Reshape_the_Matrix.java)||Easy|
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)|[Java](solutions/581_Shortest_Unsorted_Continuous_Subarray/581_Shortest_Unsorted_Continuous_Subarray.java)||Easy|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers)|[Java](solutions/605_Can_Place_Flowers/605_Can_Place_Flowers.java)||Easy|
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)|[Java](solutions/606_Construct_String_from_Binary_Tree/606_Construct_String_from_Binary_Tree.java)||Easy|
+|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler)|[Java](solutions/621_Task_Scheduler/621_Task_Scheduler.java)||Medium|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)|[Java](solutions/628_Maximum_Product_of_Three_Numbers/628_Maximum_Product_of_Three_Numbers.java)||Easy|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i)|[Java](solutions/643_Maximum_Average_Subarray_I/643_Maximum_Average_Subarray_I.java)||Easy|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|[Java](solutions/647_Palindromic_Substrings/647_Palindromic_Substrings.java)||Medium|

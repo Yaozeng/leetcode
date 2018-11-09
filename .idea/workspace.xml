@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="006a79d4-79c3-4d79-86f1-9bdd6e4b05d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode2github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode2github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/01-python-tools/01.01-python-overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/01-python-tools/01.01-python-overview.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.01-a-tour-of-python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.01-a-tour-of-python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.03-numbers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.03-numbers.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.04-strings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.04-strings.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.06-lists.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/02-python-essentials/02.06-lists.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.01-numpy-overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.01-numpy-overview.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.02-matplotlib-basics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.02-matplotlib-basics.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.03-numpy-arrays.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.03-numpy-arrays.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.04-array-types.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.04-array-types.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.05-array-calculation-method.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.05-array-calculation-method.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.06-sorting-numpy-arrays.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.06-sorting-numpy-arrays.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.07-array-shapes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.07-array-shapes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.08-diagonals.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.08-diagonals.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.09-data-to-&amp;-from-string.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.09-data-to-&amp;-from-string.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/03-numpy/03.10-array-attribute-&amp;-method-overview-.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/03-numpy/03.10-array-attribute-&amp;-method-overview-.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/05-advanced-python/05.02-interacting-with-the-OS---os.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/05-advanced-python/05.02-interacting-with-the-OS---os.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.01-pyplot-tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.01-pyplot-tutorial.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.02-customizing-plots-with-style-sheets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.02-customizing-plots-with-style-sheets.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.03-working-with-text---basic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.03-working-with-text---basic.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.05-image-tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.05-image-tutorial.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.08-figures,-subplots,-axes-and-ticks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/06-matplotlib/06.08-figures,-subplots,-axes-and-ticks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/11-useful-tools/11.02-pickle-and-cPickle.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/11-useful-tools/11.02-pickle-and-cPickle.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/11-useful-tools/11.03-json.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/11-useful-tools/11.03-json.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/12-pandas/12.01-ten-minutes-to-pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/12-pandas/12.01-ten-minutes-to-pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/12-pandas/12.02-series-in-pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/12-pandas/12.02-series-in-pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes-python/12-pandas/12.03-dataframe-in-pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notes-python/12-pandas/12.03-dataframe-in-pandas.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +42,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/leetcode2github$leetcode2github.coverage" NAME="leetcode2github Coverage Results" MODIFIED="1541502714031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/leetcode2github$homework_2.coverage" NAME="homework_2 Coverage Results" MODIFIED="1541500713802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../homework" />
     <SUITE FILE_PATH="coverage/leetcode2github$leetcode_generate.coverage" NAME="leetcode_generate Coverage Results" MODIFIED="1540721219326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -20,8 +51,67 @@
       <file leaf-file-name="leetcode_generate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="7335">
               <caret line="613" selection-start-line="613" selection-end-line="613" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homework_2_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../homework/homework_2_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1891">
+              <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06.01-pyplot-tutorial.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.01-pyplot-tutorial.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06.03-working-with-text---basic.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.03-working-with-text---basic.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06.05-image-tutorial.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.05-image-tutorial.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homework_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../homework/homework_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="48" column="55" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scope.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../homework/scope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +133,9 @@
       <list>
         <option value="$PROJECT_DIR$/config.cfg" />
         <option value="$PROJECT_DIR$/leetcode_generate.py" />
+        <option value="$PROJECT_DIR$/../notes-python/06-matplotlib/06.01-pyplot-tutorial.ipynb" />
+        <option value="$PROJECT_DIR$/../homework/homework_2.py" />
+        <option value="$PROJECT_DIR$/../homework/homework_2_1.py" />
       </list>
     </option>
   </component>
@@ -55,11 +148,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="390" />
-    <option name="y" value="5" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,7 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bottomup-tf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notes-python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -100,7 +192,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jupyter Notebook.leetcode2github">
+    <configuration name="leetcode2github" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="leetcode2github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="homework_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharm\homework\homework_2_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="leetcode_generate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode2github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,8 +248,14 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.leetcode2github" />
+      <item itemvalue="Python.leetcode_generate" />
+      <item itemvalue="Python.homework_2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework_2" />
         <item itemvalue="Python.leetcode_generate" />
       </list>
     </recent_temporary>
@@ -179,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541120198821</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init commit">
+      <created>1541211708984</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541211708984</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -192,7 +333,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="870" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.3239625" />
@@ -200,9 +341,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32797858" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32797858" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.3239625" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.32746956" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15817694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.59474415" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -255,13 +396,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11685">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11685">
@@ -404,9 +538,6 @@
         <state relative-caret-position="-325" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/solutions/001_Two_Sum/001_Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -422,9 +553,73 @@
     <entry file="file://$PROJECT_DIR$/solutions/303_Range_Sum_Query_-_Immutable/303_Range_Sum_Query_-_Immutable.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework/scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework/homework_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.08-figures,-subplots,-axes-and-ticks.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.02-customizing-plots-with-style-sheets.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.05-image-tutorial.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.01-pyplot-tutorial.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../notes-python/06-matplotlib/06.03-working-with-text---basic.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework/homework_2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1891">
+          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode_generate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="7335">
           <caret line="613" selection-start-line="613" selection-end-line="613" />
         </state>
       </provider>
